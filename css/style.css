@@ -24,3 +24,21 @@ body{
     color: #6BDFDA;
     font-size: 5rem;
 }
+.parrafo{
+    color: #ffffff;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    background-color: #ffffff;
+    color: #232323;
+    font-size: 2rem;
+    width: 13vi;
+    height: 5vi;
+    border-radius: 5vi;
+    justify-content: center;
+    align-items: center;
+}
