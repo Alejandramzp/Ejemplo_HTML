@@ -11,12 +11,14 @@ body{
     height: 100vh;
     font-family: "Poppins", sans-serif;
     font-style: italic;
+    justify-content: center;
+    align-items: center;
 }
 .textos{
     display: flex;
     flex-direction: column;
-    width: 63vi;
-    height: 40vi;
+    width: 35vi;
+    height: 38vi;
     justify-content: space-between;
 }
 .titulo1{
@@ -48,4 +50,10 @@ a{
     border-radius: 5vi;
     justify-content: center;
     align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vi; 
+    height: 44vi; 
 }
