@@ -12,6 +12,13 @@ body{
     font-family: "Poppins", sans-serif;
     font-style: italic;
 }
+.textos{
+    display: flex;
+    flex-direction: column;
+    width: 63vi;
+    height: 40vi;
+    justify-content: space-between;
+}
 .titulo1{
     color: #FEC3C7;
     font-size: 5rem;
