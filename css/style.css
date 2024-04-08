@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #2F2F2F;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    width: 35vi;
+    height: 38vi;
+    justify-content: space-between;
+}
+.titulo1{
+    color: #FEC3C7;
+    font-size: 5rem;
+}
+.titulo2{
+    color: #9AD7F3;
+    font-size: 5rem;
+}
+.titulo3{
+    color: #6BDFDA;
+    font-size: 5rem;
+}
+.parrafo{
+    color: #ffffff;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    background-color: #ffffff;
+    color: #232323;
+    font-size: 2rem;
+    width: 13vi;
+    height: 5vi;
+    border-radius: 5vi;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0.8vi;
+    row-gap: 0.5vi;
+    height: 42vi; 
+}
+img{
+    display: flex;
+    width: 9vi;
+    height: 10vi;
+}
