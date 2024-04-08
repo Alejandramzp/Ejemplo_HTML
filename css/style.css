@@ -5,9 +5,22 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
     background-color: #2F2F2F;
     width: 100vw;
     height: 100vh;
     font-family: "Poppins", sans-serif;
     font-style: italic;
+}
+.titulo1{
+    color: #FEC3C7;
+    font-size: 5rem;
+}
+.titulo2{
+    color: #9AD7F3;
+    font-size: 5rem;
+}
+.titulo3{
+    color: #6BDFDA;
+    font-size: 5rem;
 }
